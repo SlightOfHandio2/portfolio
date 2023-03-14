@@ -1,9 +1,9 @@
-import './App.css';
-import React from 'react'
+import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div className="App">
+    <div>
+      
       AboutMe
     </div>
   );
