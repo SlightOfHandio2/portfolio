@@ -1,0 +1,52 @@
+
+
+.MainIntro {
+  display: flex;
+  color: #fffaed;
+  width: fit-content;
+  padding-top: 400px;
+  display: flex;
+  margin: auto;
+}
+
+.Name {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 65px;
+  font-weight: 1000;
+}
+
+.Break {
+  color: #fffaed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ButtonHolder {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.TagHolder {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.DescriptionText{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  display: flex;
+  width: 575px;
+}
+
+.FirstLine{
+  margin-right: 10px;
+}
+
+.pPic {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  border: 3px solid #fffaed;
+}
