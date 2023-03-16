@@ -1,7 +1,15 @@
 .MainHome {
   background-image: url('../../images/backgrounds/Background1.svg');
-  background-size: cover;
-  min-height: 100vh;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 6500px;
+  height: 100vh;
+  margin: 0;
+}
+
+.SkillsPage {
+  background-image: url('../../images/backgrounds/Background2.svg');
+  background-repeat: no-repeat;
+  background-size: 6500px;
+  height: 100vh;
   margin: 0;
 }

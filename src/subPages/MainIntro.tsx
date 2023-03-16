@@ -1,8 +1,8 @@
 import React from 'react';
 import "./css/MainIntro.css"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import Button from './Button'
-import Tag from './Tag'
+import Button from '../components/Button'
+import Tag from '../components/Tag'
 import PPic from '../images/Ollie.png'
 
 
@@ -17,7 +17,7 @@ const MainIntro = () => {
 
   return (
     <div className='MainIntro'>
-        <div className='TextHolder'>
+        <div>
           <p className='Name'>Oliver Cockell</p>
           <div className='DescriptionText'>
             <p className='FirstLine'>Hi! I'm A Software Engineer /</p>

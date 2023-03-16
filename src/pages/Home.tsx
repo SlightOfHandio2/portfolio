@@ -1,11 +1,17 @@
 import React from 'react';
 import "./css/Home.css"
-import MainIntro from '../components/MainIntro';
+import MainIntro from '../subPages/MainIntro';
+import Skills from '../subPages/Projects';
 
 const Home = () => {
   return (
-    <div className='MainHome'>
-      <MainIntro/>
+    <div>
+      <div className='MainHome'>
+        <MainIntro/>
+      </div>
+      <div className='SkillsPage'>
+        <Skills/>
+      </div>
     </div>
   );
 }

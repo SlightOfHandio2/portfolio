@@ -1,0 +1,19 @@
+.Projects {
+  color: #fffaed;
+  padding-top: 100px;
+  margin: auto;
+  width: 80%;
+}
+
+.Title {
+  text-align: center;
+  padding-bottom: 95px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 95px;
+  font-weight: 1000;
+}
+
+.ButtonWrapper{
+  float: right;
+  margin-top: 10px;
+}
