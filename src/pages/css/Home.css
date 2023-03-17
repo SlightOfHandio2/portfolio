@@ -13,3 +13,11 @@
   height: 100vh;
   margin: 0;
 }
+
+.AboutPage {
+  background-image: url('../../images/backgrounds/Background3.svg');
+  background-repeat: no-repeat;
+  background-size: 6500px;
+  height: 100vh;
+  margin: 0;
+}
