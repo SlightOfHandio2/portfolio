@@ -1,8 +1,9 @@
 import React from 'react';
 import "./css/Home.css"
 import MainIntro from '../subPages/MainIntro';
-import Skills from '../subPages/Projects';
+import Projects from '../subPages/Projects';
 import About from '../subPages/About'
+import Skills from '../subPages/Skills'
 
 const Home = () => {
   return (
@@ -10,11 +11,14 @@ const Home = () => {
       <div className='MainHome'>
         <MainIntro/>
       </div>
-      <div className='SkillsPage'>
-        <Skills/>
+      <div className='ProjectsPage'>
+        <Projects/>
       </div>
       <div className='AboutPage'>
         <About/>
+      </div>
+      <div className='SkillsPage'>
+        <Skills />
       </div>
     </div>
   );

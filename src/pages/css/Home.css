@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-.SkillsPage {
+.ProjectsPage {
   background-image: url('../../images/backgrounds/Background2.svg');
   background-repeat: no-repeat;
   background-size: 6500px;
@@ -16,6 +16,14 @@
 
 .AboutPage {
   background-image: url('../../images/backgrounds/Background3.svg');
+  background-repeat: no-repeat;
+  background-size: 6500px;
+  height: 100vh;
+  margin: 0;
+}
+
+.SkillsPage {
+  background-image: url('../../images/backgrounds/Background4.svg');
   background-repeat: no-repeat;
   background-size: 6500px;
   height: 100vh;

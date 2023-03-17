@@ -1,0 +1,14 @@
+.Skills {
+  display: flex;
+  color: #fffaed;
+  width: fit-content;
+  padding-top: 150px;
+  display: flex;
+  margin: auto;
+}
+
+.Title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 65px;
+  font-weight: 1000;
+}
