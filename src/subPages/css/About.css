@@ -1,9 +1,7 @@
 .About {
-  display: flex;
   color: #fffaed;
   width: fit-content;
-  padding-top: 150px;
-  display: flex;
+  padding-top: 100px;
   margin: auto;
 }
 
@@ -11,4 +9,8 @@
   font-family: 'Roboto Mono', monospace;
   font-size: 65px;
   font-weight: 1000;
+}
+
+.Text {
+  max-width: 80vh;
 }
