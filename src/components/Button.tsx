@@ -4,9 +4,13 @@ import "./css/Button.css"
 interface Props {
   text: string
   background: string
+  onClick: any
 }
 
 const Button = (props: Props) => {
+
+  console.log(props)
+
   return (
     <button 
       style={{
@@ -14,7 +18,7 @@ const Button = (props: Props) => {
         borderColor: props.background,
       }}
       className='Button'
-
+      onClick={props.onClick}
     > 
       {props.text} 
     </button>

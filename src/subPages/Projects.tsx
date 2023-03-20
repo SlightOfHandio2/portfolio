@@ -30,7 +30,7 @@ const Projects = () => {
       </RoundAbout>
       <hr className='Break'/>
       <div className="ButtonWrapper">
-        <Button text="View More -->" background="#ffb800"/>
+        <Button text="View More -->" background="#ffb800" onClick={() => console.log('placeholder')}/>
       </div>
     </div>
   );

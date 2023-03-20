@@ -11,13 +11,13 @@ const Home = () => {
       <div className='MainHome'>
         <MainIntro/>
       </div>
-      <div className='ProjectsPage'>
+      <div className='ProjectsPage' id='ProjectSubPage'>
         <Projects/>
       </div>
-      <div className='AboutPage'>
+      <div className='AboutPage' id='AboutSubPage'>
         <About/>
       </div>
-      <div className='SkillsPage'>
+      <div className='SkillsPage' id='SkillsSubPage'>
         <Skills />
       </div>
     </div>
