@@ -18,7 +18,7 @@ const Projects = () => {
         <ProjectView title={"Factoids"} background={"test"} >
           
         </ProjectView>
-        <ProjectView title={""} background={"test"} >
+        <ProjectView title={"My Blog"} background={"test"} >
           
         </ProjectView>
         <ProjectView title={""} background={"test"} >
