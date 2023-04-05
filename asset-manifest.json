@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e700f410.css",
-    "main.js": "/portfolio/static/js/main.c8a5dba9.js",
+    "main.css": "/portfolio/static/css/main.610a8b91.css",
+    "main.js": "/portfolio/static/js/main.facbc681.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/uk.png": "/portfolio/static/media/uk.7721bd149ecf111ddb5f.png",
     "static/media/Ollie.png": "/portfolio/static/media/Ollie.1df36e70d5703c28c668.png",
-    "static/media/cum.jpg": "/portfolio/static/media/cum.59a8af692a4c7f3e119d.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.655c7d6631d93d17a8c8.png",
+    "static/media/placeholder.jpg": "/portfolio/static/media/placeholder.59a8af692a4c7f3e119d.jpg",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -13,12 +15,12 @@
     "static/media/Background3.svg": "/portfolio/static/media/Background3.8e2b1ec2ea0b73926e33.svg",
     "static/media/Background4.svg": "/portfolio/static/media/Background4.0c124a92b5ddf41cffad.svg",
     "index.html": "/portfolio/index.html",
-    "main.e700f410.css.map": "/portfolio/static/css/main.e700f410.css.map",
-    "main.c8a5dba9.js.map": "/portfolio/static/js/main.c8a5dba9.js.map",
+    "main.610a8b91.css.map": "/portfolio/static/css/main.610a8b91.css.map",
+    "main.facbc681.js.map": "/portfolio/static/js/main.facbc681.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e700f410.css",
-    "static/js/main.c8a5dba9.js"
+    "static/css/main.610a8b91.css",
+    "static/js/main.facbc681.js"
   ]
 }
