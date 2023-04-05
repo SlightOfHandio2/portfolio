@@ -24,22 +24,18 @@
 
 /* this is so stupid this is the only way I've found to transition faded backgrounds*/
 
-.fadeWrapper {
-  height: 500px;
-  width: 400px;
-  position: absolute;
-  min-height: 200px;
-}
 
-.fadeWrapper:hover .fadeHolder2 {
+.Holder:hover .fadeHolder2 {
   opacity: 0;
 }
 
-.fadeWrapper:hover .fadeHolder {
+.Holder:hover .fadeHolder {
   opacity: 1;
 }
 
+
 .fadeHolder {
+  border-radius: 10px;
   height: 500px;
   width: 400px;
   position: absolute;
@@ -55,8 +51,10 @@
 }
 
 .fadeHolder2 {
+  border-radius: 10px;
   height: 500px;
   width: 400px;
+  position: absolute;
   min-height: 200px;
   transition: opacity 0.2s;
   z-index: 2;

@@ -12,11 +12,12 @@ const Projects = () => {
       <hr className='Break'/>
       <RoundAbout>
         <ProjectView title={"My Portfolio"} background={"portfolio"} >
-          <Tag text={"Javascript"} background={"#f7df1e"}/>
           <Tag text={"Typescript"} background={"#007ACC"}/>
+          <Tag text={"styled-components"} background={"#a83a32"}/>
         </ProjectView>
         <ProjectView title={"HOI4: UK Overhaul"} background={"HOI4"} >
-          
+          <Tag text={"Clausewitz"} background={"#c46f00"}/>
+          <Tag text={"Photoshop"} background={"#004ec4"}/>
         </ProjectView>
         <ProjectView title={"My Blog"} background={"test"} >
           

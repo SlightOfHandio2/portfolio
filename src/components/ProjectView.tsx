@@ -19,10 +19,8 @@ const ProjectView = (props: Props) => {
         </p>
         {props.children && <div className="TagWrapper">{props.children}</div>}
       </div>
-      <div className="fadeWrapper">
         <div className="fadeHolder"></div>
         <div className="fadeHolder2"></div>
-      </div>
     </div>
   );
 };
