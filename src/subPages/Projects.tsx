@@ -11,11 +11,11 @@ const Projects = () => {
       <p className="Title">Projects:</p>
       <hr className='Break'/>
       <RoundAbout>
-        <ProjectView title={"My Portfolio"} background={"test"} >
+        <ProjectView title={"My Portfolio"} background={"portfolio"} >
           <Tag text={"Javascript"} background={"#f7df1e"}/>
           <Tag text={"Typescript"} background={"#007ACC"}/>
         </ProjectView>
-        <ProjectView title={"Factoids"} background={"test"} >
+        <ProjectView title={"HOI4: UK Overhaul"} background={"HOI4"} >
           
         </ProjectView>
         <ProjectView title={"My Blog"} background={"test"} >
