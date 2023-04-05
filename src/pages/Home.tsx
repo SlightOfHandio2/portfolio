@@ -8,16 +8,16 @@ import Skills from '../subPages/Skills'
 const Home = () => {
   return (
     <div>
-      <div className='MainHome'>
+      <div className='MainHome background'>
         <MainIntro/>
       </div>
-      <div className='ProjectsPage' id='ProjectSubPage'>
+      <div className='ProjectsPage background' id='ProjectSubPage'>
         <Projects/>
       </div>
-      <div className='AboutPage' id='AboutSubPage'>
+      <div className='AboutPage background' id='AboutSubPage'>
         <About/>
       </div>
-      <div className='SkillsPage' id='SkillsSubPage'>
+      <div className='SkillsPage background' id='SkillsSubPage'>
         <Skills />
       </div>
     </div>

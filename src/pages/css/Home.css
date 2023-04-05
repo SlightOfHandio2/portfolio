@@ -1,31 +1,24 @@
-.MainHome {
-  background-image: url('../../images/backgrounds/Background1.svg');
+.background{
   background-repeat: no-repeat;
   background-size: 6500px;
   height: 100vh;
+  min-height: 1000px;
   margin: 0;
+  margin-bottom: auto;
+}
+
+.MainHome {
+  background-image: url('../../images/backgrounds/Background1.svg');
 }
 
 .ProjectsPage {
   background-image: url('../../images/backgrounds/Background2.svg');
-  background-repeat: no-repeat;
-  background-size: 6500px;
-  height: 100vh;
-  margin: 0;
 }
 
 .AboutPage {
   background-image: url('../../images/backgrounds/Background3.svg');
-  background-repeat: no-repeat;
-  background-size: 6500px;
-  height: 100vh;
-  margin: 0;
 }
 
 .SkillsPage {
   background-image: url('../../images/backgrounds/Background4.svg');
-  background-repeat: no-repeat;
-  background-size: 6500px;
-  height: 100vh;
-  margin: 0;
 }
