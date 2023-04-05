@@ -3,8 +3,7 @@
   background-size: 6500px;
   height: 100vh;
   min-height: 1000px;
-  margin: 0;
-  margin-bottom: auto;
+  background-position: center bottom
 }
 
 .MainHome {
