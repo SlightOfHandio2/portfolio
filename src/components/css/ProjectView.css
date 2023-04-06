@@ -30,7 +30,6 @@
 
 /* this is so stupid this is the only way I've found to transition faded backgrounds*/
 
-
 .Holder:hover .fadeHolder2 {
   opacity: 0;
 }
@@ -38,7 +37,6 @@
 .Holder:hover .fadeHolder {
   opacity: 1;
 }
-
 
 .fadeHolder {
   border-radius: 10px;

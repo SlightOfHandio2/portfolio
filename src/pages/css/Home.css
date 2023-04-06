@@ -1,23 +1,23 @@
-.background{
+.background {
   background-repeat: no-repeat;
   background-size: 6500px;
   height: 100vh;
   min-height: 1000px;
-  background-position: center bottom
+  background-position: center bottom;
 }
 
 .MainHome {
-  background-image: url('../../images/backgrounds/Background1.svg');
+  background-image: url("../../images/backgrounds/Background1.svg");
 }
 
 .ProjectsPage {
-  background-image: url('../../images/backgrounds/Background2.svg');
+  background-image: url("../../images/backgrounds/Background2.svg");
 }
 
 .AboutPage {
-  background-image: url('../../images/backgrounds/Background3.svg');
+  background-image: url("../../images/backgrounds/Background3.svg");
 }
 
 .SkillsPage {
-  background-image: url('../../images/backgrounds/Background4.svg');
+  background-image: url("../../images/backgrounds/Background4.svg");
 }

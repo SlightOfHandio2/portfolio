@@ -1,28 +1,27 @@
-import React from 'react';
-import "./css/Button.css"
+import React from "react";
+import "./css/Button.css";
 
 interface Props {
-  text: string
-  background: string
-  onClick: any
+  text: string;
+  background: string;
+  onClick: any;
 }
 
 const Button = (props: Props) => {
-
-  console.log(props)
+  console.log(props);
 
   return (
-    <button 
+    <button
       style={{
         background: props.background,
         borderColor: props.background,
       }}
-      className='Button'
+      className="Button"
       onClick={props.onClick}
-    > 
-      {props.text} 
+    >
+      {props.text}
     </button>
   );
-}
+};
 
 export default Button;
