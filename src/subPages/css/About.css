@@ -13,4 +13,6 @@
 
 .Text {
   max-width: 80vh;
+  margin-right: 40px;
+  margin-left: 40px
 }
