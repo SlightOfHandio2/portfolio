@@ -1,5 +1,7 @@
-import React, { Children } from "react";
+import React, { useState } from "react";
 import "./css/ProjectView.css";
+import "./css/Modal.css"
+import Modal from 'react-modal';
 
 interface Props {
   background: String;
@@ -8,8 +10,15 @@ interface Props {
 }
 
 const ProjectView = (props: Props) => {
+  const [open, setOpen] = useState(false)
+
+  const handleModalOpen = () =>{
+    setOpen(!open)
+  }
+
   return (
-    <div className={"Holder " + props.background}>
+    <>
+    <div onClick={handleModalOpen} className={"Holder " + props.background}>
       <div className="ContentWrapper">
         <p
           className="MiniTitle"
@@ -22,6 +31,19 @@ const ProjectView = (props: Props) => {
       <div className="fadeHolder"></div>
       <div className="fadeHolder2"></div>
     </div>
+    <Modal
+        isOpen={open}
+        onRequestClose={handleModalOpen}
+        className="Modal"
+        overlayClassName="Overlay"
+      >
+        <div>
+          <p className="ProjectTitle">Oliver Cockell</p>
+          <hr className="Break" />
+
+        </div>
+      </Modal>
+    </>
   );
 };
 

@@ -1,0 +1,64 @@
+.Modal {
+  color: #fffaed;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1000px;
+  bottom: 0px;
+  outline: 0;
+  z-index: 1001;
+  background-color: #492b7c;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+
+  background-color: #160828d6;
+}
+
+.ProjectTitle {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 95px;
+}
+
+.Break {
+  color: #fffaed;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(2000px);
+  transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(2000px);
+}
+
+@media screen and (max-width: 1000px) {
+  .Modal {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 750px) {
+
+}
