@@ -19,9 +19,15 @@ const Projects = () => {
           <Tag text={"Clausewitz"} background={"#c46f00"} />
           <Tag text={"Photoshop"} background={"#004ec4"} />
         </ProjectView>
-        <ProjectView title={"My Blog"} background={"test"}></ProjectView>
-        <ProjectView title={""} background={"test"}></ProjectView>
-        <ProjectView title={""} background={"test"}></ProjectView>
+        <ProjectView title={"My Blog"} background={"test"}>
+          
+        </ProjectView>
+        <ProjectView title={""} background={"test"}>
+
+        </ProjectView>
+        <ProjectView title={""} background={"test"}>
+          
+        </ProjectView>
       </RoundAbout>
       <hr className="Break" />
 
