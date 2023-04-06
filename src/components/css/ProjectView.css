@@ -1,12 +1,16 @@
 .Holder {
-  width: 400px;
-
+  max-width: 400px;
+  width: 35vh;
+  min-width: 300px;
   height: 40vh;
   min-height: 200px;
   margin: 20px;
   border-radius: 10px;
   border: 2px solid #fffaed;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  justify-content: center;
   box-shadow: 0 0 0px 0px #fffaed;
   transition: background-image 0.2s ease-in-out;
   background-size: cover;
@@ -39,7 +43,9 @@
 .fadeHolder {
   border-radius: 10px;
   height: 40vh;
-  width: 400px;
+  max-width: 400px;
+  width: 35vh;
+  min-width: 300px;
   position: absolute;
   min-height: 200px;
   transition: opacity 0.2s;
@@ -55,7 +61,9 @@
 .fadeHolder2 {
   border-radius: 10px;
   height: 40vh;
-  width: 400px;
+  max-width: 400px;
+  width: 35vh;
+  min-width: 300px;
   position: absolute;
   min-height: 200px;
   transition: opacity 0.2s;
