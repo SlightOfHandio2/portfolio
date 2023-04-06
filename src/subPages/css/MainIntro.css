@@ -1,5 +1,4 @@
 
-
 .MainIntro {
   display: flex;
   color: #fffaed;
@@ -7,35 +6,37 @@
   padding-top: 30vh;
   display: flex;
   margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.WordsWrapper {
+  width: 76.5vw;
 }
 
 .Name {
   font-family: 'Roboto Mono', monospace;
-  font-size: 65px;
+  font-size: 8.6vw;
   font-weight: 1000;
 }
 
 .Break {
   color: #fffaed;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .ButtonHolder {
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .TagHolder {
   display: flex;
   padding-bottom: 15px;
-  width: 575px;
   flex-wrap: wrap;
 }
 
 .DescriptionText{
   font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
+  font-size: 2.7vw;
   display: flex;
   width: 575px;
 }
@@ -66,3 +67,41 @@
   width: 48px;
   height: 48px;
 }
+
+@media screen and (max-width: 400px){
+  .Name {
+    font-size: 35px;
+  }
+  .DescriptionText{
+    font-size: 11px;
+  }
+  .WordsWrapper{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .DescriptionText {
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 1000px){
+  .pPickWrapper{
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 750px){
+  .Name {
+    font-size: 65px;
+  }
+  .WordsWrapper{
+    width: 575px;
+  }
+  .DescriptionText {
+    font-size: 20px;
+  }
+}
+

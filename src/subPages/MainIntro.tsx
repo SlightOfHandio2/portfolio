@@ -25,7 +25,7 @@ const MainIntro = () => {
 
   return (
     <div className='MainIntro'>
-        <div>
+        <div className='WordsWrapper'>
           <p> ! Attention: This page is still a work in progress !</p>
           <p className='Name'>Oliver Cockell</p>
           <div className='DescriptionText'>
