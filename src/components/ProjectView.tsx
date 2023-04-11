@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "./Button"
+import Button from "./Button";
 import "./css/ProjectView.css";
 import "./css/Modal.css";
 import Modal from "react-modal";
@@ -47,16 +47,14 @@ const ProjectView = (props: Props) => {
           <p className="ProjectTitle">{props.title}</p>
           <hr className="LineBreak" />
           <div className="DescriptionWrapper">
-            <img src={props.image} alt="" className="projectPic"/>
-            <p>
-              {props.description}
-            </p>
+            <img src={props.image} alt="" className="projectPic" />
+            <p>{props.description}</p>
           </div>
           <div className="buttonWrapper">
-            <Button 
-            text="<- back"             
-            background={"#ffb800"}
-            onClick={() => handleModalOpen()}
+            <Button
+              text="<- back"
+              background={"#ffb800"}
+              onClick={() => handleModalOpen()}
             />
           </div>
         </div>
