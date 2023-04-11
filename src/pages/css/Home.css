@@ -16,6 +16,7 @@
 
 .AboutPage {
   background-image: url("../../images/backgrounds/Background3.svg");
+  height: fit-content;
 }
 
 .SkillsPage {

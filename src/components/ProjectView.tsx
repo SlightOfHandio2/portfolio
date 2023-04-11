@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./css/ProjectView.css";
-import "./css/Modal.css"
-import Modal from 'react-modal';
+import "./css/Modal.css";
+import Modal from "react-modal";
 
 interface Props {
   background: String;
@@ -10,37 +10,39 @@ interface Props {
 }
 
 const ProjectView = (props: Props) => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
-  const handleModalOpen = () =>{
-    setOpen(!open)
-  }
+  const handleModalOpen = () => {
+    setOpen(!open);
+    document.body.style.overflow =
+      document.body.style.overflow === "hidden" ? "unset" : "hidden";
+  };
 
   return (
     <>
-    <div onClick={handleModalOpen} className={"Holder " + props.background}>
-      <div className="ContentWrapper">
-        <p
-          className="MiniTitle"
-          style={{ paddingBottom: props.children ? "10px" : "20px" }}
-        >
-          {props.title}
-        </p>
-        {props.children && <div className="TagWrapper">{props.children}</div>}
+      <div onClick={handleModalOpen} className={"Holder " + props.background}>
+        <div className="ContentWrapper">
+          <p
+            className="MiniTitle"
+            style={{ paddingBottom: props.children ? "10px" : "20px" }}
+          >
+            {props.title}
+          </p>
+          {props.children && <div className="TagWrapper">{props.children}</div>}
+        </div>
+        <div className="fadeHolder"></div>
+        <div className="fadeHolder2"></div>
       </div>
-      <div className="fadeHolder"></div>
-      <div className="fadeHolder2"></div>
-    </div>
-    <Modal
+      <Modal
         isOpen={open}
         onRequestClose={handleModalOpen}
         className="Modal"
         overlayClassName="Overlay"
+        preventScroll={true}
       >
         <div>
-          <p className="ProjectTitle">Oliver Cockell</p>
-          <hr className="Break" />
-
+          <p className="ProjectTitle">{props.title}</p>
+          <hr className="LineBreak" />
         </div>
       </Modal>
     </>

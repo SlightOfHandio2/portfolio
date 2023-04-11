@@ -4,7 +4,7 @@ import "./css/About.css";
 const About = () => {
   return (
     <div className="About">
-      <p className="Title">About me:</p>
+      <p className="titleProject">About me:</p>
       <p className="Text">
         Hello, I'm Oliver Cockell, currently a software engineer apprentice
         working at KPMG and studying for my degree at queen mary university.

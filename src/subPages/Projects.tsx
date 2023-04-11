@@ -8,7 +8,7 @@ import Button from "../components/Button";
 const Projects = () => {
   return (
     <div className="Projects">
-      <p className="Title">Projects:</p>
+      <p className="titleProject">Projects:</p>
       <hr className="Break" />
       <RoundAbout>
         <ProjectView title={"My Portfolio"} background={"portfolio"}>

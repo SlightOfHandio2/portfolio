@@ -1,9 +1,9 @@
 .Holder {
   max-width: 400px;
-  width: 35vh;
-  min-width: 340px;
+  width: 41vw;
+  min-width: 275px;
   height: 40vh;
-  min-height: 200px;
+  min-height: 300px;
   margin: 20px;
   border-radius: 10px;
   border: 2px solid #fffaed;
@@ -42,10 +42,10 @@
   border-radius: 10px;
   height: 40vh;
   max-width: 400px;
-  width: 35vh;
-  min-width: 340px;
+  width: 41vw;
+  min-width: 275px;
   position: absolute;
-  min-height: 200px;
+  min-height: 300px;
   transition: opacity 0.2s;
   z-index: 2;
   background-image: linear-gradient(
@@ -60,10 +60,10 @@
   border-radius: 10px;
   height: 40vh;
   max-width: 400px;
-  width: 35vh;
-  min-width: 340px;
+  width: 41vw;
+  min-width: 275px;
   position: absolute;
-  min-height: 200px;
+  min-height: 300px;
   transition: opacity 0.2s;
   z-index: 2;
   background-image: linear-gradient(
@@ -78,18 +78,32 @@
   padding-bottom: 20px;
   margin-top: auto;
   z-index: 5;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .TagWrapper {
   display: flex;
   flex-direction: row;
-  padding-left: 20px;
+
+
 }
 
 .MiniTitle {
   font-family: "Roboto Mono", monospace;
-  padding-left: 20px;
-  font-size: 50px;
+  font-size: 7vw;
   font-weight: 1000;
 }
 
+@media screen and (max-width: 500px) {
+  .MiniTitle {
+    font-size: 35px;
+  }
+}
+
+
+@media screen and (min-width: 750px) {
+  .MiniTitle {
+    font-size: 52px;
+  }
+}

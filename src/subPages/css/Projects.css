@@ -5,15 +5,28 @@
   width: 80%;
 }
 
-.Title {
+.titleProject {
   text-align: center;
-  padding-bottom: 95px;
+  padding-bottom: 50px;
   font-family: "Roboto Mono", monospace;
-  font-size: 95px;
+  font-size: 11.3vw;
   font-weight: 1000;
 }
 
 .ButtonWrapper {
   float: right;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .titleProject {
+    font-size: 45px;
+  }
+}
+
+
+@media screen and (min-width: 750px) {
+  .titleProject {
+    font-size: 85px;
+  }
 }
