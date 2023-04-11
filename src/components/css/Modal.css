@@ -2,15 +2,16 @@
   color: #fffaed;
   position: absolute;
   margin: auto;
-  top: 0px;
   left: 0px;
   right: 0px;
   width: 1000px;
   height: fit-content;
-  bottom: 0px;
+  max-height: 100vh;
   outline: 0;
   z-index: 1001;
   background-color: #492b7c;
+  overflow-y: scroll;
+
 }
 
 .Overlay {
@@ -27,7 +28,7 @@
 .ProjectTitle {
     text-align: center;
     font-family: "Roboto Mono", monospace;
-    font-size: 95px;
+    font-size: 8vw;
 }
 
 .LineBreak {
@@ -53,12 +54,44 @@
   transform: translateY(2000px);
 }
 
+.DescriptionWrapper {
+  padding: 25px;
+}
+
+.projectPic {
+  width: 240px;
+  height: 240px;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  border: 3px solid #fffaed;
+  float: right;
+  white-space: nowrap;
+}
+
+.buttonWrapper{
+ padding: 10px;
+ background-color: #3d2267;
+ width:calc(100% - 20px);
+ position:sticky;
+ bottom: 0;
+}
+
 @media screen and (max-width: 1000px) {
   .Modal {
     width: 100vw;
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 500px) {
+  .ProjectTitle {
+    font-size: 35px;
+  }
+}
 
+
+@media screen and (min-width: 750px) {
+  .ProjectTitle {
+    font-size: 65px;
+  }
 }

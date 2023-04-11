@@ -8,7 +8,6 @@ interface Props {
 }
 
 const Button = (props: Props) => {
-  console.log(props);
 
   return (
     <button

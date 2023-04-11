@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "./Button"
 import "./css/ProjectView.css";
 import "./css/Modal.css";
 import Modal from "react-modal";
@@ -6,6 +7,8 @@ import Modal from "react-modal";
 interface Props {
   background: String;
   title: String;
+  description?: String;
+  image?: any;
   children: any;
 }
 
@@ -43,6 +46,19 @@ const ProjectView = (props: Props) => {
         <div>
           <p className="ProjectTitle">{props.title}</p>
           <hr className="LineBreak" />
+          <div className="DescriptionWrapper">
+            <img src={props.image} alt="" className="projectPic"/>
+            <p>
+              {props.description}
+            </p>
+          </div>
+          <div className="buttonWrapper">
+            <Button 
+            text="<- back"             
+            background={"#ffb800"}
+            onClick={() => handleModalOpen()}
+            />
+          </div>
         </div>
       </Modal>
     </>

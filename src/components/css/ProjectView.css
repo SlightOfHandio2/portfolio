@@ -68,7 +68,7 @@
   z-index: 2;
   background-image: linear-gradient(
     to bottom,
-    hsla(0, 0%, 100%, 0) 50%,
+    hsla(0, 0%, 100%, 0) 20%,
     hsl(0, 0%, 0%)
   );
   opacity: 1;

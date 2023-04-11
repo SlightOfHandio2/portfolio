@@ -32,9 +32,9 @@ const MainIntro = () => {
         <hr className="Break" />
         <div className="ButtonHolder">
           <Button
-            text={"Skills"}
-            background={"#ffb800"}
-            onClick={() => handleClickScroll("SkillsSubPage")}
+            text={"Projects"}
+            background={"#ffb300"}
+            onClick={() => handleClickScroll("ProjectSubPage")}
           />
           <Button
             text={"About"}
@@ -42,9 +42,9 @@ const MainIntro = () => {
             onClick={() => handleClickScroll("AboutSubPage")}
           />
           <Button
-            text={"Projects"}
-            background={"#ffb300"}
-            onClick={() => handleClickScroll("ProjectSubPage")}
+            text={"Skills"}
+            background={"#ffb800"}
+            onClick={() => handleClickScroll("SkillsSubPage")}
           />
         </div>
         <hr className="Break" />

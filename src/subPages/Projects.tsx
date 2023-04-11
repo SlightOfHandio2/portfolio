@@ -3,7 +3,9 @@ import "./css/Projects.css";
 import RoundAbout from "../components/RoundAbout";
 import ProjectView from "../components/ProjectView";
 import Tag from "../components/Tag";
-import Button from "../components/Button";
+import Description from "../content/ProjectDesc.json";
+import placeholder from "../images/projects/placeholder.jpg"
+
 
 const Projects = () => {
   return (
@@ -11,7 +13,7 @@ const Projects = () => {
       <p className="titleProject">Projects:</p>
       <hr className="Break" />
       <RoundAbout>
-        <ProjectView title={"My Portfolio"} background={"portfolio"}>
+        <ProjectView title={"My Portfolio"} background={"portfolio"} description={Description.portfolio} image={placeholder}>
           <Tag text={"Typescript"} background={"#007ACC"} />
           <Tag text={"styled-components"} background={"#a83a32"} />
         </ProjectView>
