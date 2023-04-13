@@ -1,5 +1,4 @@
 .MainIntro {
-  display: flex;
   color: #fffaed;
   width: fit-content;
   padding-top: 30vh;
@@ -24,9 +23,6 @@
   margin-bottom: 10px;
 }
 
-.ButtonHolder {
-}
-
 .TagHolder {
   display: flex;
   padding-bottom: 15px;
@@ -37,7 +33,6 @@
   font-family: "Roboto Mono", monospace;
   font-size: 2.7vw;
   display: flex;
-  width: 575px;
 }
 
 .FirstLine {
@@ -78,15 +73,9 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .DescriptionText {
-    width: 400px;
-  }
-}
-
 @media screen and (max-width: 1000px) {
   .pPickWrapper {
-    visibility: hidden;
+    display: none;
   }
 }
 

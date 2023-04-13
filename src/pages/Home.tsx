@@ -3,7 +3,7 @@ import "./css/Home.css";
 import MainIntro from "../subPages/MainIntro";
 import Projects from "../subPages/Projects";
 import About from "../subPages/About";
-import Skills from "../subPages/Skills";
+//import Skills from "../subPages/Skills";
 
 const Home = () => {
   return (
@@ -17,9 +17,11 @@ const Home = () => {
       <div className="AboutPage background" id="AboutSubPage">
         <About />
       </div>
+      {/*
       <div className="SkillsPage background" id="SkillsSubPage">
         <Skills />
       </div>
+      */}
     </div>
   );
 };
