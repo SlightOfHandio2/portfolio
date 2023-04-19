@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import ModalView from "./ModalView";
 import "./css/ProjectView.css";
 import "./css/Modal.css";
 import Modal from "react-modal";
@@ -43,21 +43,12 @@ const ProjectView = (props: Props) => {
         overlayClassName="Overlay"
         preventScroll={true}
       >
-        <div>
-          <p className="ProjectTitle">{props.title}</p>
-          <hr className="LineBreak" />
-          <div className="DescriptionWrapper">
-            <img src={props.image} alt="" className="projectPic" />
-            <p>{props.description}</p>
-          </div>
-          <div className="buttonWrapper">
-            <Button
-              text="<- back"
-              background={"#ffb800"}
-              onClick={() => handleModalOpen()}
-            />
-          </div>
-        </div>
+        <ModalView
+          title={props.title}
+          description={props.description}
+          image={props.image}
+          handleModalOpen={handleModalOpen}
+        />
       </Modal>
     </>
   );
