@@ -55,6 +55,7 @@
 }
 
 .DescriptionWrapper {
+  white-space: pre-line;
   padding: 25px;
 }
 
