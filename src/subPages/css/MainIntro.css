@@ -25,7 +25,6 @@
 
 .TagHolder {
   display: flex;
-  padding-bottom: 15px;
   flex-wrap: wrap;
 }
 
@@ -65,6 +64,11 @@
   display: none;
 }
 
+.LinkWrapper{
+  display: none;
+
+}
+
 @media screen and (max-width: 400px) {
   .Name {
     font-size: 35px;
@@ -80,6 +84,9 @@
 @media screen and (max-width: 1000px) {
   .pPickWrapper {
     display: none;
+  }
+  .LinkWrapper{
+    display: inline;
   }
   .breakline{
     display: inline;

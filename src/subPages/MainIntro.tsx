@@ -25,7 +25,10 @@ const MainIntro = () => {
       <div className="WordsWrapper">
         <p className="Name">Oliver Cockell</p>
         <div className="DescriptionText">
-          <p className="FirstLine">Hi! I'm A Software Engineer  / <br className="breakline"/> {text} <Cursor /></p>
+          <p className="FirstLine">
+            Hi! I'm A Software Engineer / <br className="breakline" /> {text}{" "}
+            <Cursor />
+          </p>
         </div>
         <hr className="Break" />
         <div className="ButtonHolder">
@@ -39,11 +42,13 @@ const MainIntro = () => {
             background={"#ff4800"}
             onClick={() => handleClickScroll("AboutSubPage")}
           />
-          <Button
-            text={"Skills"}
-            background={"#ffb800"}
-            onClick={() => handleClickScroll("SkillsSubPage")}
-          />
+          {
+            //  <Button
+            //     text={"Skills"}
+            //       background={"#ffb800"}
+            //         onClick={() => handleClickScroll("SkillsSubPage")}
+            //         />
+          }
         </div>
         <hr className="Break" />
         <div className="TagHolder">
@@ -57,6 +62,23 @@ const MainIntro = () => {
           <Tag text={"ReactJS"} background={"#26cbff"} />
           <Tag text={"GCP"} background={"#e3e3e3"} />
           <Tag text={"styled-components"} background={"#a83a32"} />
+        </div>
+        <div className="LinkWrapper">
+          <hr className="Break" />
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/oliver-cockell-77b56a194/"
+            rel="noreferrer"
+          >
+            <img className="Icon" src={LinkedIn} alt="" />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/ollieCockell"
+            rel="noreferrer"
+          >
+            <img className="Icon" src={GitHub} alt="" />
+          </a>
         </div>
       </div>
       <div className="pPickWrapper">
