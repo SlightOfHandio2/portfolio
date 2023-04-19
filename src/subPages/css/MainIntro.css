@@ -61,6 +61,10 @@
   height: 48px;
 }
 
+.breakline{
+  display: none;
+}
+
 @media screen and (max-width: 400px) {
   .Name {
     font-size: 35px;
@@ -77,6 +81,9 @@
   .pPickWrapper {
     display: none;
   }
+  .breakline{
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -84,7 +91,7 @@
     font-size: 65px;
   }
   .WordsWrapper {
-    width: 575px;
+    width: 600px;
   }
   .DescriptionText {
     font-size: 20px;

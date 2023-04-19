@@ -25,9 +25,7 @@ const MainIntro = () => {
       <div className="WordsWrapper">
         <p className="Name">Oliver Cockell</p>
         <div className="DescriptionText">
-          <p className="FirstLine">Hi! I'm A Software Engineer /</p>
-          <p>{text}</p>
-          <Cursor />
+          <p className="FirstLine">Hi! I'm A Software Engineer  / <br className="breakline"/> {text} <Cursor /></p>
         </div>
         <hr className="Break" />
         <div className="ButtonHolder">
