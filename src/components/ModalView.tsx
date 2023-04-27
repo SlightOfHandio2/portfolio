@@ -15,7 +15,7 @@ const ModalView = (props: Props) => {
       <p className="ProjectTitle">{props.title}</p>
       <hr className="LineBreak" />
       <div className="DescriptionWrapper">
-        <img src={props.image} alt="" className="projectPic" />
+        { props.image && <img src={props.image} alt="" className="projectPic" /> }
         <p>{props.description}</p>
       </div>
       <div className="buttonWrapper">
