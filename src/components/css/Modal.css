@@ -72,7 +72,7 @@
 .buttonWrapper {
   padding: 10px 25px;
   background-color: #3d2267;
-  width: calc(100% - 20px);
+  width: calc(100% - 50px);
   position: sticky;
   bottom: 0;
 }
