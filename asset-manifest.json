@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d2f58c03.css",
-    "main.js": "/portfolio/static/js/main.af1758df.js",
+    "main.css": "/portfolio/static/css/main.940e2cc6.css",
+    "main.js": "/portfolio/static/js/main.7b829faa.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/uk2.png": "/portfolio/static/media/uk2.151d301148fb359d25dd.png",
     "static/media/uk.png": "/portfolio/static/media/uk.7721bd149ecf111ddb5f.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.59e65e1672e51e8079dd.png",
     "static/media/Ollie.jpg": "/portfolio/static/media/Ollie.71647cce1e6c6b7f5936.jpg",
+    "static/media/middleman.png": "/portfolio/static/media/middleman.1d1159140a71b5e10c22.png",
     "static/media/placeholder.jpg": "/portfolio/static/media/placeholder.59a8af692a4c7f3e119d.jpg",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -16,12 +17,12 @@
     "static/media/Background3.svg": "/portfolio/static/media/Background3.8e2b1ec2ea0b73926e33.svg",
     "static/media/Background4.svg": "/portfolio/static/media/Background4.0c124a92b5ddf41cffad.svg",
     "index.html": "/portfolio/index.html",
-    "main.d2f58c03.css.map": "/portfolio/static/css/main.d2f58c03.css.map",
-    "main.af1758df.js.map": "/portfolio/static/js/main.af1758df.js.map",
+    "main.940e2cc6.css.map": "/portfolio/static/css/main.940e2cc6.css.map",
+    "main.7b829faa.js.map": "/portfolio/static/js/main.7b829faa.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f58c03.css",
-    "static/js/main.af1758df.js"
+    "static/css/main.940e2cc6.css",
+    "static/js/main.7b829faa.js"
   ]
 }
