@@ -29,6 +29,16 @@ const Projects = () => {
           <Tag text={"Clausewitz"} background={"#c46f00"} />
           <Tag text={"Photoshop"} background={"#004ec4"} />
         </ProjectView>
+        <ProjectView
+          title={"SteamMiddleMan"}
+          background={"MIDDLEMAN"}
+          description={Description.MIDDLEMAN}
+        >
+          <Tag text={"Javascript"} background={"#f7df1e"} />
+          <Tag text={"NodeJS"} background={"#9df76d"} />
+          <Tag text={"PostgreSQL"} background={"#2b48ab"} />
+          <Tag text={"OpenID"} background={"#8a8a8a"} />
+        </ProjectView>
 
       </RoundAbout>
       <hr className="Break" />

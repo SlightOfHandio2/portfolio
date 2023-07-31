@@ -62,6 +62,10 @@ const MainIntro = () => {
           <Tag text={"ReactJS"} background={"#26cbff"} />
           <Tag text={"GCP"} background={"#e3e3e3"} />
           <Tag text={"styled-components"} background={"#a83a32"} />
+          <Tag text={"PostgreSQL"} background={"#2b48ab"} />
+          <Tag text={"OpenID"} background={"#8a8a8a"} />
+
+          
         </div>
         <div className="LinkWrapper">
           <hr className="Break" />

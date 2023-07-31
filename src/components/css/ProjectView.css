@@ -10,7 +10,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   box-shadow: 0 0 0px 0px #fffaed;
   transition: background-image 0.2s ease-in-out;
   background-size: cover;
@@ -26,6 +26,10 @@
 
 .HOI4 {
   background-image: url("../../images/projects/uk.png");
+}
+
+.MIDDLEMAN {
+  background-image: url("../../images/projects/middleman.png");
 }
 
 /* this is so stupid this is the only way I've found to transition faded backgrounds*/
@@ -89,18 +93,18 @@
 
 .MiniTitle {
   font-family: "Roboto Mono", monospace;
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: 1000;
 }
 
 @media screen and (max-width: 500px) {
   .MiniTitle {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 @media screen and (min-width: 750px) {
   .MiniTitle {
-    font-size: 52px;
+    font-size: 43px;
   }
 }
