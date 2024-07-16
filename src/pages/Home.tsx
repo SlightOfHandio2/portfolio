@@ -3,7 +3,7 @@ import "./css/Home.css";
 import MainIntro from "../subPages/MainIntro";
 import Projects from "../subPages/Projects";
 import About from "../subPages/About";
-//import Skills from "../subPages/Skills";
+import Experience from "../subPages/Skills";
 
 const Home = () => {
   return (
@@ -11,17 +11,18 @@ const Home = () => {
       <div className="MainHome background">
         <MainIntro />
       </div>
-      <div className="ProjectsPage background" id="ProjectSubPage">
-        <Projects />
+      <div className="SkillsPage background" id="SkillsSubPage">
+        <Experience />
       </div>
+
       <div className="AboutPage background" id="AboutSubPage">
         <About />
       </div>
-      {/*
-      <div className="SkillsPage background" id="SkillsSubPage">
-        <Skills />
+      <div className="ProjectsPage background" id="ProjectSubPage">
+        <Projects />
       </div>
-      */}
+
+      
     </div>
   );
 };
