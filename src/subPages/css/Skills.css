@@ -1,10 +1,49 @@
-.Skills {
-  display: flex;
+.About {
   color: #fffaed;
-  width: fit-content;
-  padding-top: 150px;
-  display: flex;
+  padding: 50px;
+  border-radius: 8px;
+  max-width: 800px;
   margin: auto;
+  font-family: "Roboto Mono", monospace;
+}
+
+.employment {
+  display: flex;
+  align-items: center;
+  background-color: #34495e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 2px solid #fffaed;
+}
+
+.employmentDetails {
+  max-width: 600px;
+}
+
+.SubTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Date {
+  font-size: 16px;
+  color: #ecf0f1;
+  margin: 5px 0;
+}
+
+.Text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0 0;
 }
 
 .Title {
@@ -13,14 +52,8 @@
   font-weight: 1000;
 }
 
-.employment {
-  display: flex;
-  margin: auto;
-  padding-top: 20px;
-}
-
-.logo {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
+.titleProjectNoBreak {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 1000;
 }
