@@ -82,7 +82,7 @@ const MainIntro = () => {
           </a>
           <a
             target="_blank"
-            href="https://github.com/ollieCockell"
+            href="https://github.com/SlightOfHandio2"
             rel="noreferrer"
           >
             <img className="Icon" src={GitHub} alt="" />
