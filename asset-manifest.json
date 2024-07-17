@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0a2589e1.css",
-    "main.js": "/portfolio/static/js/main.0d955723.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/uk2.png": "/portfolio/static/media/uk2.151d301148fb359d25dd.png",
-    "static/media/uk.png": "/portfolio/static/media/uk.7721bd149ecf111ddb5f.png",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.59e65e1672e51e8079dd.png",
-    "static/media/Ollie.jpg": "/portfolio/static/media/Ollie.71647cce1e6c6b7f5936.jpg",
-    "static/media/middleman.png": "/portfolio/static/media/middleman.1d1159140a71b5e10c22.png",
-    "static/media/placeholder.jpg": "/portfolio/static/media/placeholder.59a8af692a4c7f3e119d.jpg",
-    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/Background1.svg": "/portfolio/static/media/Background1.4ca58b110bbd8849a8d3.svg",
-    "static/media/Background2.svg": "/portfolio/static/media/Background2.3aadad9cd6d04c5374f2.svg",
-    "static/media/Background3.svg": "/portfolio/static/media/Background3.8e2b1ec2ea0b73926e33.svg",
-    "static/media/Background4.svg": "/portfolio/static/media/Background4.0c124a92b5ddf41cffad.svg",
-    "index.html": "/portfolio/index.html",
-    "main.0a2589e1.css.map": "/portfolio/static/css/main.0a2589e1.css.map",
-    "main.0d955723.js.map": "/portfolio/static/js/main.0d955723.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.e0fd021d.css",
+    "main.js": "/static/js/main.050606de.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/uk2.png": "/static/media/uk2.151d301148fb359d25dd.png",
+    "static/media/uk.png": "/static/media/uk.7721bd149ecf111ddb5f.png",
+    "static/media/portfolio.png": "/static/media/portfolio.59e65e1672e51e8079dd.png",
+    "static/media/Ollie.jpg": "/static/media/Ollie.71647cce1e6c6b7f5936.jpg",
+    "static/media/middleman.png": "/static/media/middleman.1d1159140a71b5e10c22.png",
+    "static/media/placeholder.jpg": "/static/media/placeholder.59a8af692a4c7f3e119d.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/Background1.svg": "/static/media/Background1.4ca58b110bbd8849a8d3.svg",
+    "static/media/Background2.svg": "/static/media/Background2.3aadad9cd6d04c5374f2.svg",
+    "static/media/Background3.svg": "/static/media/Background3.8e2b1ec2ea0b73926e33.svg",
+    "static/media/Background4.svg": "/static/media/Background4.0c124a92b5ddf41cffad.svg",
+    "index.html": "/index.html",
+    "main.e0fd021d.css.map": "/static/css/main.e0fd021d.css.map",
+    "main.050606de.js.map": "/static/js/main.050606de.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a2589e1.css",
-    "static/js/main.0d955723.js"
+    "static/css/main.e0fd021d.css",
+    "static/js/main.050606de.js"
   ]
 }
