@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .pPickWrapper {
     display: none;
   }
@@ -90,6 +90,9 @@
   }
   .breakline{
     display: inline;
+  }
+  .MainIntro {
+    padding-top: 10vh;
   }
 }
 

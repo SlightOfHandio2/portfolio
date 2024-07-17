@@ -1,11 +1,11 @@
 import React from "react";
-import "./css/Skills.css";
+import "./css/Experience.css";
 import kpmgLogo from "../images/icons/kpmg.jpeg";
 import queenMaryLogo from "../images/icons/qmul.jpeg";
 
-const About = () => {
+const Experience = () => {
   return (
-    <div className="About">
+    <div className="Experience">
       <h2 className="titleProject ExperienceTitle">Experience</h2>
       <hr className="Break" />
       <div className="employment">
@@ -59,8 +59,7 @@ const About = () => {
           </p>
           <p className="Text">
             Completed an undergraduate degree in Computer Science, gaining a
-            strong foundation in software development, algorithms, and web
-            technologies.
+            strong foundation in software development, algorithms, data-sctructures, deep learning and web technologies.
           </p>
           <h3 className="SubTitle">Key Achievements</h3>
           <ul className="Highlights">
@@ -78,4 +77,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Experience;

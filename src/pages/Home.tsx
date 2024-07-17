@@ -3,7 +3,7 @@ import "./css/Home.css";
 import MainIntro from "../subPages/MainIntro";
 import Projects from "../subPages/Projects";
 import About from "../subPages/About";
-import Experience from "../subPages/Skills";
+import Experience from "../subPages/Experience";
 
 const Home = () => {
   return (

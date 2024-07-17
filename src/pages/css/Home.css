@@ -24,3 +24,10 @@
   height: 120vh;
   background-color: #492b7c;
 }
+
+@media (max-width: 768px) {
+  .ExperiencePage {
+    height: 200vh;
+  }
+
+}

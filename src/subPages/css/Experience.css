@@ -1,12 +1,11 @@
-.About {
+.Experience {
   color: #fffaed;
-  padding: 50px;
+  padding: 20px;
   border-radius: 8px;
   max-width: 1200px;
   margin: auto;
   font-family: "Roboto Mono", monospace;
   background-color: #2c3e50;
-
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -25,11 +24,12 @@
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin-right: 20px;
   border-radius: 8px;
   border: 2px solid #fffaed;
@@ -80,4 +80,47 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .About {
+    padding: 20px 10px;
+    background-color: #ffffff00;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .employment,
+  .qualification {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .employmentDetails,
+  .qualificationDetails {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .SubTitle {
+    font-size: 20px;
+  }
+
+  .Date,
+  .Text,
+  .Highlights li {
+    font-size: 14px;
+  }
+
+  .Highlights {
+    list-style-type: none;
+    padding: 0;
+  }
 }
