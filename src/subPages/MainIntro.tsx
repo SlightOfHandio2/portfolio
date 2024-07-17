@@ -3,7 +3,7 @@ import "./css/MainIntro.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Button from "../components/Button";
 import Tag from "../components/Tag";
-import PPic from "../images/Ollie.jpg";
+import PPic from "../images/Ollie.png";
 import LinkedIn from "../images/icons/LinkedIn.png";
 import GitHub from "../images/icons/GitHub.png";
 
