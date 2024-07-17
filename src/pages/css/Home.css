@@ -8,21 +8,27 @@
 
 .MainHome {
   background-image: url("../../images/backgrounds/Background1.svg");
+  background-color: #160828;
+
 }
 
 .ProjectsPage {
   background-image: url("../../images/backgrounds/Background3.svg");
+  background-color: #160828;
+
 }
 
 .AboutPage {
   background-image: url("../../images/backgrounds/Background2.svg");
   height: fit-content;
+  background-color: #492b7c;
 }
 
 .ExperiencePage {
   background-image: url("../../images/backgrounds/Background4.svg");
-  height: 120vh;
+  height: 110vh;
   background-color: #492b7c;
+  min-height: 100rem;
 }
 
 .titleProject {
