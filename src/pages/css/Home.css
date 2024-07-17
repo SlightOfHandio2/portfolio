@@ -19,6 +19,8 @@
   height: fit-content;
 }
 
-.SkillsPage {
+.ExperiencePage {
   background-image: url("../../images/backgrounds/Background4.svg");
+  height: 120vh;
+  background-color: #492b7c;
 }

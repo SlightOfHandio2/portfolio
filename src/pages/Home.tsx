@@ -11,7 +11,7 @@ const Home = () => {
       <div className="MainHome background">
         <MainIntro />
       </div>
-      <div className="SkillsPage background" id="SkillsSubPage">
+      <div className="ExperiencePage background" id="ExperienceSubPage">
         <Experience />
       </div>
 
@@ -21,8 +21,6 @@ const Home = () => {
       <div className="ProjectsPage background" id="ProjectSubPage">
         <Projects />
       </div>
-
-      
     </div>
   );
 };

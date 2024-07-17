@@ -33,6 +33,11 @@ const MainIntro = () => {
         <hr className="Break" />
         <div className="ButtonHolder">
           <Button
+            text={"Experience"}
+            background={"#ff4800"}
+            onClick={() => handleClickScroll("ExperienceSubPage")}
+          />
+          <Button
             text={"Projects"}
             background={"#ffb300"}
             onClick={() => handleClickScroll("ProjectSubPage")}
@@ -64,8 +69,6 @@ const MainIntro = () => {
           <Tag text={"styled-components"} background={"#a83a32"} />
           <Tag text={"PostgreSQL"} background={"#2b48ab"} />
           <Tag text={"OpenID"} background={"#8a8a8a"} />
-
-          
         </div>
         <div className="LinkWrapper">
           <hr className="Break" />
