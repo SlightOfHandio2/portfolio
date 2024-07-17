@@ -37,7 +37,7 @@
 
 .employmentDetails,
 .qualificationDetails {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .SubTitle {
@@ -60,7 +60,6 @@
 }
 
 .Highlights {
-  list-style-type: disc;
   margin: 10px 0 0 20px;
   padding: 0;
 }
@@ -84,16 +83,9 @@
 
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
-  .About {
+  .Experience {
     padding: 20px 10px;
     background-color: #ffffff00;
-  }
-
-  .logo {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
-    margin-right: 0;
   }
 
   .employment,
@@ -121,6 +113,22 @@
 
   .Highlights {
     list-style-type: none;
-    padding: 0;
+    margin: 10px 0 0 0;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .employment,
+  .qualification {
+    flex-direction: row;
+  }
+
+  .employmentDetails,
+  .qualificationDetails {
+    max-width: calc(100% - 120px); /* Adjust the max width to avoid wrapping */
   }
 }

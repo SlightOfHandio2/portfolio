@@ -9,7 +9,7 @@
   border: 2px solid;
   color: "#160828";
   padding: 5px 15px;
-  font-weight: 200;
+  font-weight: 400;
   transition: background 0.25s, color 0.25s, border 0.25s;
 }
 

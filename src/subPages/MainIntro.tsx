@@ -34,17 +34,17 @@ const MainIntro = () => {
         <div className="ButtonHolder">
           <Button
             text={"Experience"}
-            background={"#ff4800"}
+            background={"#ffb300"}
             onClick={() => handleClickScroll("ExperienceSubPage")}
           />
           <Button
             text={"Projects"}
-            background={"#ffb300"}
+            background={"#ff4800"}
             onClick={() => handleClickScroll("ProjectSubPage")}
           />
           <Button
             text={"About"}
-            background={"#ff4800"}
+            background={"#ffb300"}
             onClick={() => handleClickScroll("AboutSubPage")}
           />
           {

@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="employment">
         <img className="logo" src={kpmgLogo} alt="KPMG" />
         <div className="employmentDetails">
-          <h3 className="SubTitle">KPMG</h3>
+          <h3 className="SubTitle">KPMG - Software Engineer</h3>
           <p className="Date">September 2019 - Present</p>
           <p className="Text">
             Currently Employed at KPMG as a Software Engineer. Throughout my
@@ -55,11 +55,13 @@ const Experience = () => {
         <div className="qualificationDetails">
           <h3 className="SubTitle">Queen Mary University of London</h3>
           <p className="Date">
-            Bachelor of Science in Computer Science, 2015 - 2019
+            Bachelor of Science in Digital and Technology Solutions (Software
+            Engineer), 2019 - 2024
           </p>
           <p className="Text">
             Completed an undergraduate degree in Computer Science, gaining a
-            strong foundation in software development, algorithms, data-sctructures, deep learning and web technologies.
+            strong foundation in software development, algorithms,
+            data-sctructures, deep learning and web technologies.
           </p>
           <h3 className="SubTitle">Key Achievements</h3>
           <ul className="Highlights">

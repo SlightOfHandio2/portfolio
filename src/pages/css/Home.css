@@ -11,11 +11,11 @@
 }
 
 .ProjectsPage {
-  background-image: url("../../images/backgrounds/Background2.svg");
+  background-image: url("../../images/backgrounds/Background3.svg");
 }
 
 .AboutPage {
-  background-image: url("../../images/backgrounds/Background3.svg");
+  background-image: url("../../images/backgrounds/Background2.svg");
   height: fit-content;
 }
 
@@ -25,9 +25,18 @@
   background-color: #492b7c;
 }
 
+.titleProject {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 1000;
+  font-size: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 @media (max-width: 768px) {
   .ExperiencePage {
     height: 200vh;
   }
-
 }

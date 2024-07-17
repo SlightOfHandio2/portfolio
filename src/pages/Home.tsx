@@ -14,12 +14,11 @@ const Home = () => {
       <div className="ExperiencePage background" id="ExperienceSubPage">
         <Experience />
       </div>
-
-      <div className="AboutPage background" id="AboutSubPage">
-        <About />
-      </div>
       <div className="ProjectsPage background" id="ProjectSubPage">
         <Projects />
+      </div>
+      <div className="AboutPage background" id="AboutSubPage">
+        <About />
       </div>
     </div>
   );
