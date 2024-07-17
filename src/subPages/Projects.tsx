@@ -9,7 +9,7 @@ import uk2 from "../images/projects/uk2.png";
 const Projects = () => {
   return (
     <div className="Projects">
-      <p className="titleProject">Projects:</p>
+      <p className="titleProject">Projects</p>
       <hr className="Break" />
       <RoundAbout>
         <ProjectView

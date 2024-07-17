@@ -4,7 +4,8 @@ import "./css/About.css";
 const About = () => {
   return (
     <div className="About">
-      <h2 className="titleProject">About me:</h2>
+      <h2 className="titleProject">About me</h2>
+      <div className="textWrapper">
       <p className="Text">
         Hello, I'm Oliver Cockell, currently a software engineer currently
         working at KPMG. I have professional experience in a variety of areas in
@@ -25,6 +26,7 @@ const About = () => {
         Feel free to reach out to me on LinkedIn or through my email at
         olliecockell@gmail.com.
       </p>
+      </div>
     </div>
   );
 };

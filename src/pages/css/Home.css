@@ -39,4 +39,7 @@
   .ExperiencePage {
     height: 200vh;
   }
+  .titleProject{
+    font-size: 40px;
+  }
 }

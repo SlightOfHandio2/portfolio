@@ -60,13 +60,14 @@ const MainIntro = () => {
           <Tag text={"Typescript"} background={"#007ACC"} />
           <Tag text={"Javascript"} background={"#f7df1e"} />
           <Tag text={"Python"} background={"#0d6aa3"} />
+          <Tag text={"css"} background={"#a83a32"} />
+          <Tag text={"Node"} background={"#9df76d"} />
+          <Tag text={"React"} background={"#26cbff"} />
           <Tag text={"Git"} background={"#e3e3e3"} />
           <Tag text={"Docker"} background={"#0db7ed"} />
-          <Tag text={"NodeJS"} background={"#9df76d"} />
-          <Tag text={"Insomnia REST"} background={"#5702e8"} />
-          <Tag text={"ReactJS"} background={"#26cbff"} />
           <Tag text={"GCP"} background={"#e3e3e3"} />
-          <Tag text={"styled-components"} background={"#a83a32"} />
+          <Tag text={"CloudFlare"} background={"#f58d42"} />
+          <Tag text={"Azure"} background={"#06bcf9"} />
           <Tag text={"PostgreSQL"} background={"#2b48ab"} />
           <Tag text={"OpenID"} background={"#8a8a8a"} />
         </div>

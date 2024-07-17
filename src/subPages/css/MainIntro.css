@@ -28,9 +28,9 @@
   flex-wrap: wrap;
 }
 
+
 .DescriptionText {
   font-family: "Roboto Mono", monospace;
-  font-size: 2.7vw;
   display: flex;
 }
 
