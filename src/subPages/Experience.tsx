@@ -67,7 +67,7 @@ const Experience = () => {
           <ul className="Highlights">
             <li>Graduated with First-Class Honours.</li>
             <li>
-              For my FYP I developed a accessibility evaluation tool for
+              For my final year project I developed a accessibility evaluation tool for
               WebPages that tells developers how to align them with the WCAG
               guidelines. This used technologies such as Puppeteer and Axe Core
               and can be deployed in a CI/CD pipeline or be used standalone.{" "}
