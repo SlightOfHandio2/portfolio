@@ -47,13 +47,6 @@ const MainIntro = () => {
             background={"#ffb300"}
             onClick={() => handleClickScroll("AboutSubPage")}
           />
-          {
-            //  <Button
-            //     text={"Skills"}
-            //       background={"#ffb800"}
-            //         onClick={() => handleClickScroll("SkillsSubPage")}
-            //         />
-          }
         </div>
         <hr className="Break" />
         <div className="TagHolder">
