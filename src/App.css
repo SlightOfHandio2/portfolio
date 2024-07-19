@@ -2,3 +2,8 @@ p {
   margin: 0px;
   padding: 0px;
 }
+
+.MainContain{
+  margin: auto;
+  max-height: 1000px;
+}

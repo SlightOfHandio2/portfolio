@@ -7,7 +7,7 @@ import Experience from "../subPages/Experience";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
       <div className="MainHome background">
         <MainIntro />
       </div>

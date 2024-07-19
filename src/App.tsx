@@ -5,14 +5,12 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div>
-      <div>
+    <div className="MainContain">
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
           </Route>
         </Routes>
-      </div>
     </div>
   );
 };

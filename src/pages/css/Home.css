@@ -1,8 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .background {
   background-repeat: no-repeat;
   background-size: 6500px;
-  height: 100vh;
-  min-height: 1000px;
+  min-height: 110vh;
   background-position: center bottom;
 }
 
@@ -26,9 +30,9 @@
 
 .ExperiencePage {
   background-image: url("../../images/backgrounds/Background4.svg");
-  height: 110vh;
   background-color: #492b7c;
-  min-height: 100rem;
+  overflow: visible;
+  flex-grow: 1;
 }
 
 .titleProject {
@@ -42,8 +46,17 @@
 }
 
 @media (max-width: 768px) {
+  .MainHome{
+    padding-bottom: 100px;
+  }
   .ExperiencePage {
-    height: 200vh;
+    padding-bottom: 300px;
+  }
+  .ProjectsPage {
+    padding-bottom: 100px;
+  }
+  .AboutPage {
+    padding-bottom: 300px;
   }
   .titleProject{
     font-size: 40px;
