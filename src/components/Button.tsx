@@ -4,7 +4,8 @@ import "./css/Button.css";
 interface Props {
   text: string;
   background: string;
-  onClick: any;
+  onClick: () => void;
+  className?: string; // Optional className prop for extra styling
 }
 
 const Button = (props: Props) => {
@@ -14,7 +15,7 @@ const Button = (props: Props) => {
         background: props.background,
         borderColor: props.background,
       }}
-      className="Button"
+      className={`Button ${props.className || ""}`}
       onClick={props.onClick}
     >
       {props.text}

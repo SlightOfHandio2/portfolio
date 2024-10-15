@@ -2,7 +2,8 @@
   color: #fffaed;
   padding-top: 0px;
   margin: auto;
-  width: 80%;
+  max-width: 1350px;
+  width: 90%;
 }
 
 .titleProject {
@@ -20,4 +21,79 @@
 .ButtonWrapper {
   float: right;
   margin-top: 10px;
+}
+
+.projectLogo {
+  max-width: 240px;
+  max-height: 240px;
+  margin-right: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #161519;
+  padding: 20px;
+  border: 2px solid #fffaed;
+}
+
+.projectTitle {
+  max-width: 1080px;
+  width: 90vw;
+}
+
+.projectText {
+  max-width: 1000px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.projectDescriptionHolder{
+  justify-content: center;
+}
+
+.TagProjectHolder {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: -6px;
+}
+
+.quickLink :hover{
+  cursor: pointer;
+}
+
+.linkButton {
+  width: 284px;
+}
+
+.logoHolder{
+  width: 300px;
+}
+
+.reverser{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 1350px) {
+
+  .linkButtonMobile {
+    width: calc(90vw - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 762px) {
+  .reverser{
+    flex-direction: column-reverse;
+  }
+
+  .TagProjectHolder {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
 }

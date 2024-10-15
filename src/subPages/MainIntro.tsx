@@ -54,7 +54,7 @@ const MainIntro = () => {
           <Tag text={"Javascript"} background={"#f7df1e"} />
           <Tag text={"Python"} background={"#0d6aa3"} color={"#fffaed"} />
           <Tag text={"css"} background={"#a83a32"} color={"#fffaed"} />
-          <Tag text={"Node"} background={"#9df76d"} />
+          <Tag text={"NodeJS"} background={"#9df76d"} />
           <Tag text={"React"} background={"#26cbff"} />
           <Tag text={"Git"} background={"#e3e3e3"} />
           <Tag text={"Docker"} background={"#0db7ed"} />
@@ -63,6 +63,9 @@ const MainIntro = () => {
           <Tag text={"Azure"} background={"#06bcf9"} />
           <Tag text={"PostgreSQL"} background={"#2b48ab"} color={"#fffaed"} />
           <Tag text={"OpenID"} background={"#8a8a8a"} />
+          <Tag text={"Nginx"} background={"#008700"} color={"#fffaed"} />
+          <Tag text={"Ubuntu Cli"} background={"#db570f"} color={"#fffaed"} />
+          <Tag text={"Stripe"} background={"#a168fc"} color={"#fffaed"} />
         </div>
         <div className="LinkWrapper">
           <hr className="Break" />
