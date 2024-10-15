@@ -1,8 +1,8 @@
 .About {
   color: #fffaed;
   width: fit-content;
-  padding-top: 100px;
   margin: auto;
+  padding-bottom: 30vh;
 }
 
 .Title {
@@ -16,7 +16,7 @@
   margin-left: 40px;
 }
 
-.textWrapper{
+.textWrapper {
   padding-left: 20px;
   padding-right: 20px;
 }

@@ -7,10 +7,9 @@ const About = () => {
       <h2 className="titleProject">About me</h2>
       <div className="textWrapper">
         <p className="Text">
-          Hello, I'm Oliver Cockell, currently a software engineer working at
-          KPMG. I have professional experience in a variety of areas in web
-          development including Frontend, Backend, Database Management and
-          Cloud Services.
+          Hello, I'm Oliver Cockell, a software engineer with professional
+          experience in a variety of areas of web development including
+          Frontend, Backend, Database Management and Cloud Services.
         </p>
         <p className="Text">
           I'm always eager to learn and improve my skills in computer science

@@ -6,20 +6,17 @@
 .background {
   background-repeat: no-repeat;
   background-size: 6500px;
-  min-height: 110vh;
   background-position: center bottom;
 }
 
 .MainHome {
   background-image: url("../../images/backgrounds/Background1.svg");
   background-color: #160828;
-
 }
 
 .ProjectsPage {
   background-image: url("../../images/backgrounds/Background3.svg");
   background-color: #160828;
-
 }
 
 .AboutPage {
@@ -31,6 +28,7 @@
 .ExperiencePage {
   background-image: url("../../images/backgrounds/Background4.svg");
   background-color: #492b7c;
+  height: fit-content;
   overflow: visible;
   flex-grow: 1;
 }
@@ -46,7 +44,7 @@
 }
 
 @media (max-width: 768px) {
-  .MainHome{
+  .MainHome {
     padding-bottom: 100px;
   }
   .ExperiencePage {
@@ -58,7 +56,7 @@
   .AboutPage {
     padding-bottom: 300px;
   }
-  .titleProject{
+  .titleProject {
     font-size: 40px;
   }
 }

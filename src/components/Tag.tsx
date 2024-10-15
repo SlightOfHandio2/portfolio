@@ -8,8 +8,6 @@ interface Props {
 }
 
 const Tag = (props: Props) => {
-  console.log(props);
-  console.log(props.color ? props.color : "#160828")
   return (
     <p
       className="Tag"
