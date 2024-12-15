@@ -22,8 +22,14 @@ const About = () => {
           and working on cars.
         </p>
         <p className="Text">
-          Feel free to reach out to me on LinkedIn or through my email at
-          olliecockell@gmail.com.
+          Feel free to reach out to me on{" "}
+          <a
+            style={{ color: "white" }}
+            href="https://www.linkedin.com/in/oliver-cockell-77b56a194/"
+          >
+            LinkedIn
+          </a>{" "}
+          or through my email at olliecockell@gmail.com.
         </p>
       </div>
     </div>

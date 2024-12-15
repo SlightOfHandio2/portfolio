@@ -53,7 +53,7 @@ const MainIntro = () => {
           <Tag text={"Typescript"} background={"#007ACC"} color={"#fffaed"} />
           <Tag text={"Javascript"} background={"#f7df1e"} />
           <Tag text={"Python"} background={"#0d6aa3"} color={"#fffaed"} />
-          <Tag text={"css"} background={"#a83a32"} color={"#fffaed"} />
+          <Tag text={"CSS"} background={"#a83a32"} color={"#fffaed"} />
           <Tag text={"NodeJS"} background={"#9df76d"} />
           <Tag text={"React"} background={"#26cbff"} />
           <Tag text={"Git"} background={"#e3e3e3"} />
