@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./css/Projects.css";
 import AHC from "../images/icons/AHC.png";
 import AHC_Logo from "../images/AHC_Logo.png";
@@ -6,29 +6,13 @@ import Tag from "../components/Tag";
 import Button from "../components/Button";
 
 const Projects = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  const handleResize = () => {
-    setWindowWidth(window.innerWidth);
-  };
-
-  useEffect(() => {
-    // Listen for resize events
-    window.addEventListener("resize", handleResize);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <div className="Projects">
       <p className="titleProject">Projects</p>
       <hr className="Break" />
-      <div style={{ display: "flex" }}>
-        {windowWidth > 1350 && (
-          <div className="logoHolder">
+      <div className="projectSection">
+        <div className="projectCard">
+          <div className="projectMedia">
             <img
               src={AHC}
               alt="AutoHistoryCheck Icon"
@@ -48,14 +32,12 @@ const Projects = () => {
               />
             </a>
           </div>
-        )}
-        <div className="projectDescriptionHolder">
-          <img
-            className="projectTitle"
-            src={AHC_Logo}
-            alt="AutoHistoryCheck Logo"
-          />
-          <div className="reverser">
+          <div className="projectDetails">
+            <img
+              className="projectTitle"
+              src={AHC_Logo}
+              alt="AutoHistoryCheck Logo"
+            />
             <div className="TagProjectHolder">
               <Tag text={"Javascript"} background={"#f7df1e"} />
               <Tag
@@ -86,23 +68,6 @@ const Projects = () => {
               and uses CloudFlare for DNS and SSL.
             </p>
           </div>
-          {windowWidth < 1350 && (
-            <div className="logoHolder">
-              <a
-                href="https://autohistorycheck.co.uk/"
-                target="_blank"
-                rel="noreferrer"
-                className="quickLink"
-              >
-                <Button
-                  className="linkButton linkButtonMobile"
-                  text={"Visit AHC ->"}
-                  background={"#ffb300"}
-                  onClick={() => console.log("bye bye")}
-                />
-              </a>
-            </div>
-          )}
         </div>
       </div>
       <hr className="Break" />
