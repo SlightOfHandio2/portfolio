@@ -45,16 +45,16 @@
 
 @media (max-width: 768px) {
   .MainHome {
-    padding-bottom: 100px;
+    padding-bottom: 96px;
   }
   .ExperiencePage {
-    padding-bottom: 300px;
+    padding-bottom: 304px;
   }
   .ProjectsPage {
-    padding-bottom: 100px;
+    padding-bottom: 96px;
   }
   .AboutPage {
-    padding-bottom: 300px;
+    padding-bottom: 304px;
   }
   .titleProject {
     font-size: 40px;
