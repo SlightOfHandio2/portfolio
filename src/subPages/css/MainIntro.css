@@ -19,9 +19,14 @@
   font-weight: 1000;
 }
 
-.Break {
+.introBreak {
   color: #fffaed;
-  margin-bottom: 10px;
+}
+.introBreak {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 250, 237, 0.4);
+  margin: 8px 0;
 }
 
 .TagHolder {

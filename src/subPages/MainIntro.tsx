@@ -30,7 +30,7 @@ const MainIntro = () => {
             <Cursor />
           </p>
         </div>
-        <hr className="Break" />
+        <hr className="introBreak" />
         <div className="ButtonHolder">
           <Button
             text={"Experience"}
@@ -48,7 +48,7 @@ const MainIntro = () => {
             onClick={() => handleClickScroll("AboutSubPage")}
           />
         </div>
-        <hr className="Break" />
+        <hr className="introBreak" />
         <div className="TagHolder">
           <Tag text={"Typescript"} background={"#007ACC"} color={"#fffaed"} />
           <Tag text={"Javascript"} background={"#f7df1e"} />
