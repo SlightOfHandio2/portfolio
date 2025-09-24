@@ -42,7 +42,6 @@
 }
 
 .experienceCard:hover {
-  transform: translateY(-6px);
   box-shadow: 0 26px 60px rgba(9, 4, 32, 0.45);
 }
 

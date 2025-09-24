@@ -2,6 +2,7 @@ import React from "react";
 import "./css/Projects.css";
 import AHC from "../images/icons/AHC.png";
 import AHC_Logo from "../images/AHC_Logo.png";
+import ODDISS_LOGO from "../images/icons/oddiss.svg";
 import Tag from "../components/Tag";
 import Button from "../components/Button";
 
@@ -26,7 +27,7 @@ const Projects = () => {
             >
               <Button
                 className="linkButton"
-                text={"Visit AHC ->"}
+                text={"AHC ->"}
                 background={"#ffb300"}
                 onClick={() => console.log("bye bye")}
               />
@@ -72,8 +73,8 @@ const Projects = () => {
         <div className="projectCard">
           <div className="projectMedia">
             <img
-              src="https://via.placeholder.com/150?text=OddissLabs"
-              alt="OddissLabs Placeholder Icon"
+              src={ODDISS_LOGO}
+              alt="OddissLabs Logo"
               className="projectLogo"
             />
             <a
@@ -84,24 +85,24 @@ const Projects = () => {
             >
               <Button
                 className="linkButton"
-                text={"Visit OddissLabs ->"}
-                background={"#6c5ce7"}
+                text={"Oddiss ->"}
+                background={"#f06e27"}
                 onClick={() => console.log("oddisslabs")}
               />
             </a>
           </div>
           <div className="projectDetails">
-            <img
-              className="projectTitle"
-              src="https://via.placeholder.com/420x120?text=OddissLabs"
-              alt="OddissLabs Placeholder Wordmark"
-            />
+            <p className="projectTitle">Oddiss Labs</p>
+
             <div className="TagProjectHolder">
-              <Tag text={"Freelance"} background={"#ff9f43"} color={"#0e0d10"} />
-              <Tag text={"Web Design"} background={"#26cbff"} color={"#0e0d10"} />
-              <Tag text={"React"} background={"#6df7c1"} color={"#0e0d10"} />
-              <Tag text={"Brand Strategy"} background={"#a168fc"} color={"#fffaed"} />
-              <Tag text={"SEO"} background={"#f7df1e"} color={"#0e0d10"} />
+              <Tag text={"Javascript"} background={"#f7df1e"} />
+              <Tag text={"React"} background={"#26cbff"} color={"#0e0d10"} />
+              <Tag text={"SEO"} background={"#e1e1e1ff"} color={"#0e0d10"} />
+              <Tag
+                text={"Mantine"}
+                background={"#34aed3ff"}
+                color={"#fffaed"}
+              />
             </div>
             <p className="projectText">
               OddissLabs is my freelance studio where I collaborate with
@@ -111,7 +112,8 @@ const Projects = () => {
               build to deliver polished, performant, and easy-to-manage
               solutions.
               <br />
-              <br />Every engagement is an end-to-end partnership: refining brand
+              <br />
+              Every engagement is an end-to-end partnership: refining brand
               positioning, mapping user journeys, designing responsive layouts,
               and developing modern frontends that are optimized for search and
               conversion. Whether a project calls for a bespoke React build or a
