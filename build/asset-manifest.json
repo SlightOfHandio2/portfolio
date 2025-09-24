@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.477e0c9b.css",
+    "main.js": "/static/js/main.99c90ff8.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/RobotoMono-VariableFont_wght.ttf": "/static/media/RobotoMono-VariableFont_wght.e14e25b7c497634efdfe.ttf",
+    "static/media/Ollie.png": "/static/media/Ollie.7090b403cb4afa085e95.png",
+    "static/media/AHC_Logo.png": "/static/media/AHC_Logo.135361d334ee714129c0.png",
+    "static/media/oddiss.svg": "/static/media/oddiss.03e52394ca4fd2fb19ec7be532cf1f37.svg",
+    "static/media/AHC.png": "/static/media/AHC.8abc9e8dfe5c6797e2be.png",
+    "static/media/Background1.svg": "/static/media/Background1.4ca58b110bbd8849a8d3.svg",
+    "static/media/Background2.svg": "/static/media/Background2.3aadad9cd6d04c5374f2.svg",
+    "static/media/Background3.svg": "/static/media/Background3.8e2b1ec2ea0b73926e33.svg",
+    "static/media/Background4.svg": "/static/media/Background4.0c124a92b5ddf41cffad.svg",
+    "index.html": "/index.html",
+    "main.477e0c9b.css.map": "/static/css/main.477e0c9b.css.map",
+    "main.99c90ff8.js.map": "/static/js/main.99c90ff8.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.477e0c9b.css",
+    "static/js/main.99c90ff8.js"
+  ]
+}
