@@ -24,6 +24,13 @@
   margin-bottom: 10px;
 }
 
+.BreakIntro {
+  border: 0;
+  height: 1px;
+  background: rgba(255, 250, 237, 0.4);
+  margin: 8px 0;
+}
+
 .TagHolder {
   display: flex;
   flex-wrap: wrap;
