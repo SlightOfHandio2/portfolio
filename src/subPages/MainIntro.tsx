@@ -33,16 +33,19 @@ const MainIntro = () => {
         <hr className="BreakIntro" />
         <div className="ButtonHolder">
           <Button
+            className="introButton"
             text={"Experience"}
             background={"#ffb300"}
             onClick={() => handleClickScroll("ExperienceSubPage")}
           />
           <Button
+            className="introButton"
             text={"Projects"}
             background={"#ff4800"}
             onClick={() => handleClickScroll("ProjectSubPage")}
           />
           <Button
+            className="introButton"
             text={"About"}
             background={"#ffb300"}
             onClick={() => handleClickScroll("AboutSubPage")}

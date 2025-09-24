@@ -2,6 +2,7 @@ import React from "react";
 import "./css/Projects.css";
 import AHC from "../images/icons/AHC.png";
 import AHC_Logo from "../images/AHC_Logo.png";
+import ODDISS_LOGO from "../images/icons/oddiss.svg";
 import Tag from "../components/Tag";
 import Button from "../components/Button";
 
@@ -26,7 +27,7 @@ const Projects = () => {
             >
               <Button
                 className="linkButton"
-                text={"Visit AHC ->"}
+                text={"AHC ->"}
                 background={"#ffb300"}
                 onClick={() => console.log("bye bye")}
               />
@@ -66,6 +67,58 @@ const Projects = () => {
               Using stripe as a payment processor and nginx to serve content and
               be a reverse proxy. The application is hosted on an Ubuntu Server
               and uses CloudFlare for DNS and SSL.
+            </p>
+          </div>
+        </div>
+        <div className="projectCard">
+          <div className="projectMedia">
+            <img
+              src={ODDISS_LOGO}
+              alt="OddissLabs Logo"
+              className="projectLogo"
+            />
+            <a
+              href="https://oddiss.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="quickLink"
+            >
+              <Button
+                className="linkButton"
+                text={"Oddiss ->"}
+                background={"#f06e27"}
+                onClick={() => console.log("oddisslabs")}
+              />
+            </a>
+          </div>
+          <div className="projectDetails">
+            <p className="projectTitle">Oddiss Labs</p>
+
+            <div className="TagProjectHolder">
+              <Tag text={"Javascript"} background={"#f7df1e"} />
+              <Tag text={"React"} background={"#26cbff"} color={"#0e0d10"} />
+              <Tag text={"SEO"} background={"#e1e1e1ff"} color={"#0e0d10"} />
+              <Tag
+                text={"Mantine"}
+                background={"#34aed3ff"}
+                color={"#fffaed"}
+              />
+            </div>
+            <p className="projectText">
+              OddissLabs is my freelance studio where I collaborate with
+              entrepreneurs and small teams to craft tailor-made digital
+              experiences. From portfolio sites and marketing pages to full
+              company websites, I guide clients through discovery, design, and
+              build to deliver polished, performant, and easy-to-manage
+              solutions.
+              <br />
+              <br />
+              Every engagement is an end-to-end partnership: refining brand
+              positioning, mapping user journeys, designing responsive layouts,
+              and developing modern frontends that are optimized for search and
+              conversion. Whether a project calls for a bespoke React build or a
+              streamlined no-code launch, OddissLabs turns ideas into compelling
+              web presences that help businesses grow.
             </p>
           </div>
         </div>
