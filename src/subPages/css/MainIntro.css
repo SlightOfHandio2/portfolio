@@ -5,8 +5,8 @@
   padding-bottom: 30vh;
   display: flex;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .WordsWrapper {
@@ -21,7 +21,7 @@
 
 .Break {
   color: #fffaed;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .BreakIntro {
@@ -43,7 +43,7 @@
 }
 
 .FirstLine {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .pPickWrapper {
@@ -51,8 +51,8 @@
 }
 
 .pPic {
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-top: 8px;
+  margin-left: 48px;
   width: 240px;
   height: 240px;
   border-radius: 25px;
@@ -60,7 +60,7 @@
 }
 
 .IconWrapper {
-  margin-left: 50px;
+  margin-left: 48px;
 }
 
 .Icon {
