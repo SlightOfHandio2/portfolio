@@ -69,6 +69,57 @@ const Projects = () => {
             </p>
           </div>
         </div>
+        <div className="projectCard">
+          <div className="projectMedia">
+            <img
+              src="https://via.placeholder.com/150?text=OddissLabs"
+              alt="OddissLabs Placeholder Icon"
+              className="projectLogo"
+            />
+            <a
+              href="https://oddiss.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="quickLink"
+            >
+              <Button
+                className="linkButton"
+                text={"Visit OddissLabs ->"}
+                background={"#6c5ce7"}
+                onClick={() => console.log("oddisslabs")}
+              />
+            </a>
+          </div>
+          <div className="projectDetails">
+            <img
+              className="projectTitle"
+              src="https://via.placeholder.com/420x120?text=OddissLabs"
+              alt="OddissLabs Placeholder Wordmark"
+            />
+            <div className="TagProjectHolder">
+              <Tag text={"Freelance"} background={"#ff9f43"} color={"#0e0d10"} />
+              <Tag text={"Web Design"} background={"#26cbff"} color={"#0e0d10"} />
+              <Tag text={"React"} background={"#6df7c1"} color={"#0e0d10"} />
+              <Tag text={"Brand Strategy"} background={"#a168fc"} color={"#fffaed"} />
+              <Tag text={"SEO"} background={"#f7df1e"} color={"#0e0d10"} />
+            </div>
+            <p className="projectText">
+              OddissLabs is my freelance studio where I collaborate with
+              entrepreneurs and small teams to craft tailor-made digital
+              experiences. From portfolio sites and marketing pages to full
+              company websites, I guide clients through discovery, design, and
+              build to deliver polished, performant, and easy-to-manage
+              solutions.
+              <br />
+              <br />Every engagement is an end-to-end partnership: refining brand
+              positioning, mapping user journeys, designing responsive layouts,
+              and developing modern frontends that are optimized for search and
+              conversion. Whether a project calls for a bespoke React build or a
+              streamlined no-code launch, OddissLabs turns ideas into compelling
+              web presences that help businesses grow.
+            </p>
+          </div>
+        </div>
       </div>
       <hr className="Break" />
     </div>
