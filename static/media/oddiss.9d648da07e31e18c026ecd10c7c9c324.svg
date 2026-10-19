@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(15.625,0,0,15.625,0,0)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc" width="64" height="64"><title id="title">Oddiss brand mark</title><desc id="desc">An organic black ring containing an orange dot.</desc><path d="M31 6C43 5 53 11 57 21c5 12 0 24-9 30-8 5-24 8-33 6-6-1-9-5-9-11L5 31C4 19 12 10 23 7c3-1 6-1.3 8-1Z" fill="none" stroke="#171712" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="31" cy="29" r="7.25" fill="#ff5d2f"></circle></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(15.625,0,0,15.625,0,0)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc" width="64" height="64"><title id="title">Oddiss reversed brand mark</title><desc id="desc">An organic white ring containing an orange dot, for dark backgrounds.</desc><path d="M31 6C43 5 53 11 57 21c5 12 0 24-9 30-8 5-24 8-33 6-6-1-9-5-9-11L5 31C4 19 12 10 23 7c3-1 6-1.3 8-1Z" fill="none" stroke="#ffffff" stroke-width="4.25" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="31" cy="29" r="7.25" fill="#ff5d2f"></circle></svg></g></g></svg></g></svg>
