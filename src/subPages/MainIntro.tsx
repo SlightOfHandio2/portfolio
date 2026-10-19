@@ -55,20 +55,16 @@ const MainIntro = () => {
         <div className="TagHolder">
           <Tag text={"Typescript"} background={"#007ACC"} color={"#fffaed"} />
           <Tag text={"Javascript"} background={"#f7df1e"} />
-          <Tag text={"Python"} background={"#0d6aa3"} color={"#fffaed"} />
-          <Tag text={"CSS"} background={"#a83a32"} color={"#fffaed"} />
+          <Tag text={"Go"} background={"#40adf1"} color={"#fffaed"} />
+          <Tag text={"PostgreSQL"} background={"#2b48ab"} color={"#fffaed"} />
+          <Tag text={"MongoDB"} background={"#00420a"} color={"#fffaed"} />
           <Tag text={"NodeJS"} background={"#9df76d"} />
           <Tag text={"React"} background={"#26cbff"} />
-          <Tag text={"Git"} background={"#e3e3e3"} />
+          <Tag text={"NextJS"} background={"#000405"} color={"#fffaed"} />
           <Tag text={"Docker"} background={"#0db7ed"} />
-          <Tag text={"GCP"} background={"#e3e3e3"} />
+          <Tag text={"AWS"} background={"#ffb700"} />
           <Tag text={"CloudFlare"} background={"#f58d42"} />
-          <Tag text={"Azure"} background={"#06bcf9"} />
-          <Tag text={"PostgreSQL"} background={"#2b48ab"} color={"#fffaed"} />
           <Tag text={"OpenID"} background={"#8a8a8a"} />
-          <Tag text={"Nginx"} background={"#008700"} color={"#fffaed"} />
-          <Tag text={"Ubuntu Cli"} background={"#db570f"} color={"#fffaed"} />
-          <Tag text={"Stripe"} background={"#a168fc"} color={"#fffaed"} />
         </div>
         <div className="LinkWrapper">
           <hr className="Break" />
