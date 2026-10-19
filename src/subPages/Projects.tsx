@@ -61,12 +61,8 @@ const Projects = () => {
               details such as write off history, previous keeper info, MOT
               history, import status and more.
               <br />
-              <br />I created the application as my first solo venture, designed
-              both aesthetically and technically by me. Currently it uses a
-              React frontend and a NodeJS backend with a postgresql database.
-              Using stripe as a payment processor and nginx to serve content and
-              be a reverse proxy. The application is hosted on an Ubuntu Server
-              and uses CloudFlare for DNS and SSL.
+              <br />Launched in 2022, I created the application as my first solo venture, designed
+              both aesthetically and technically by me. Createdusing technologies such as react, postgresql, stripe and cloudflare. 
             </p>
           </div>
         </div>
@@ -74,7 +70,7 @@ const Projects = () => {
           <div className="projectMedia">
             <img
               src={ODDISS_LOGO}
-              alt="OddissLabs Logo"
+              alt="Oddiss Labs Logo"
               className="projectLogo"
             />
             <a
@@ -105,20 +101,10 @@ const Projects = () => {
               />
             </div>
             <p className="projectText">
-              OddissLabs is my freelance studio where I collaborate with
+              Oddiss Labs is my freelance studio where I collaborate with
               entrepreneurs and small teams to craft tailor-made digital
-              experiences. From portfolio sites and marketing pages to full
-              company websites, I guide clients through discovery, design, and
-              build to deliver polished, performant, and easy-to-manage
-              solutions.
+              solutions. From portfolio sites, webapp development, custom intergrated solutions and repository reviews, I'm with clients every step of the way to ensure their goals are met and their vision is realized.
               <br />
-              <br />
-              Every engagement is an end-to-end partnership: refining brand
-              positioning, mapping user journeys, designing responsive layouts,
-              and developing modern frontends that are optimized for search and
-              conversion. Whether a project calls for a bespoke React build or a
-              streamlined no-code launch, OddissLabs turns ideas into compelling
-              web presences that help businesses grow.
             </p>
           </div>
         </div>
